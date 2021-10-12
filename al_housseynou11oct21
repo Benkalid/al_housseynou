@@ -1,0 +1,31 @@
+void main() {
+ Apprenant a1 = new Apprenant();
+  a1.nom = 'Ba';
+  a1.prenom = 'Al Housseynou';
+  a1.adresse =  'Sain-Louis';
+  print(a1.getinfo());
+  
+  
+}
+class user {
+  String nom = '';
+  String prenom = '';
+  String adresse =  '';
+  void manger(){
+    print("user mange");
+    
+  }
+ 
+}
+classe Apprenant extends user (
+void printinfo(){
+  void etudier () {
+    print("je passe l examen de flutter")
+  }
+  void passexam(){
+    string getinfo(){
+      return '${this.nom} ${this.prenom}
+    }
+  }
+
+ 
